@@ -1,0 +1,154 @@
+
+
+.nav {
+    width: 200px;
+    height: 100px;
+    background-color: #77176e;
+    margin-left: 2vh;
+  
+  }
+  
+  nav a {
+      color: inherit;
+      padding: 0 12px;
+      text-decoration: none;
+      margin-left:5vh
+  } 
+
+.all{
+    background: radial-gradient(at left bottom,hsl(324, 67%, 83%), #f3b0dc);
+}
+  .h1{
+    text-align: center;
+    font-family:fantasy;
+    margin-top: 2rem;
+    text-decoration: underline;
+    color: #f3b0dc;
+    padding: 10px;
+  }
+
+.cashew img{
+    height: 200px;
+    width: 220px;
+    margin-top:30px;
+    margin-left:5vw;
+    border-radius: 20%;
+    grid-area:2rem;
+    display: grid;
+    gap: 50px;
+    
+    
+
+   /* height: 100px; */
+   /* width: 200px; */
+   }
+   .info{
+    margin:5vw;
+    color: white;
+    margin-bottom: auto;
+   }
+        
+       .cashew img {
+           transition: 1s ease;
+           }
+            .cashew img:hover {
+           /* border-radius:50%; */
+           transition: 1s ease;
+           }
+           .heder{
+               text-align: center;
+                color:rgb(150, 44, 109); 
+                /* color: hsla(333, 82%, 4%, 0.592);  */
+                 text-decoration: underline; 
+                 /* background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%); */
+                
+               
+               }
+              
+               
+           /* .row{ */
+                /* padding-left:30px;  */
+                /* padding: auto; */
+               
+                /* padding-right: 50px; */
+
+               /* margin: 40px; */
+                /* } */
+                       
+             .masala_cashew{
+               /* background: radial-gradient(circle, rgb(199, 151, 62) 0%, rgba(28, 234, 117, 0.398) 100%); */
+                /* background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);   */
+                 background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%);  
+               padding-right: 20px;
+                border-radius: 30px; 
+                border: 2px solid black;
+                
+               /* border-radius: 50px; */
+             }
+              /* .row_msg{  */
+               /* background: radial-gradient(circle, rgb(160, 115, 18) 0%, rgba(67, 32, 138, 0.398) 100%); */
+               /* border-radius: 30px; */
+               /* color: aliceblue; 
+               
+
+              /* } */
+              .row_msg p{
+               font-size: large;
+          
+              }
+              .row .cashew .image{
+               border: 2px solid black;
+              } 
+              .image{
+               border: 2px solid rgba(0, 0, 0, 0.358);
+              }
+              .footer{
+                padding: 48px; 
+               font-size: large;
+               margin-top:10px;
+               padding-left: 10px;
+               background-color: #77176e;
+               border: 2px solid rgb(250, 246, 246);
+               color: white;
+               /* background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%); */
+               border: 2px solid rgb(6, 6, 6)
+               /* padding-bottom: 60px; */
+               
+           }
+           .footer i
+           {
+               padding-right: 5px;
+               color: #032844;
+
+           }
+           .footer_text  h4:hover
+           {
+               background-color: rgb(0, 255, 145);
+           }
+       .about{
+           padding-left: 100px;
+       }
+       .product{
+            padding-right: 200px;
+           
+       }
+       .contact{
+           padding-right: 80px;
+       }
+       .footer_text{
+           padding-left: 50px;
+       }
+       
+       
+       
+       
+       
+           
+
+             
+   
+
+               
+       
+                 
+       

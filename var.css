@@ -1,0 +1,124 @@
+.nav {
+   width: 200px;
+   height: 100px;
+   background-color: #77176e;
+    margin-left: 5vh; 
+   
+ 
+ }
+ 
+ nav a {
+     color: inherit;
+     padding: 0 12px;
+     text-decoration: none;
+     margin-left:5vh
+ } 
+ 
+
+
+
+
+@keyframes color {
+
+   0%   { background:#fab5f0 }
+   20%  { background:#f1a4ea; }
+   40%  { background: #f3c5ec }
+   60%  { background:#f5b2eb }
+   80%  { background: hsl(304, 63%, 91%); }
+   100% { background: #ea90dd }
+ }
+.all{
+  
+    /* background: #33CCCC; Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+        /* background-image: url('/IMAGE/organic.avif'); */
+    
+}
+.item1_img1{
+   /* height:300px; */
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 40px;
+   
+   padding: 10px;}
+   
+   .item2_img2{
+     height:300px;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 40px;
+   
+   padding: 10px;
+   }
+
+   .var{
+      text-align: center;
+      text-decoration: underline;
+      font-family: fantasy;
+      color: #77176e;
+
+   }
+   /* footer */
+   .footer{
+    padding: 48px; 
+   font-size: large;
+   margin-top: 30px;
+   padding-left: 10px;
+   /* background: radial-gradient(circle at 10% 20%, rgb(228, 118, 0) 0%, rgb(247, 189, 2) 90%); */
+   background-color: #77176e;
+   border: 2px solid rgb(250, 246, 246);
+   color: white;
+   /* padding-bottom: 60px; */
+   
+}
+.footer i
+{
+   padding-right: 5px;
+   color: #f4f5f6;
+
+}
+.footer_text  h4:hover
+{
+   background-color: rgb(244, 246, 245);
+}
+.about{
+padding-left: 100px;
+}
+.product{
+padding-right: 200px;
+
+}
+.contact{
+padding-right: 80px;
+}
+.footer_text{
+padding-left: 50px;
+}
+    
+
+    .para{
+        /* background-color: rgb(139, 223, 130); */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        /* margin:10px; */
+         /* box-shadow: 5px 5px 5px 5px rgb(213, 213, 213);
+        background-color: rgba(146, 235, 146, 0.485);  */
+        border-radius:10px;
+       margin-left:  50px;
+
+    }
+    .heder{
+
+        font-size: large;
+        text-align: center;
+        text-decoration: dashed;
+        color: hwb(0 5% 95% / 0.873);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-top: 2rem;
+    }
+  
+    /* * {
+      box-sizing: border-box; 
+    } */
